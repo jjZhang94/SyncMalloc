@@ -36,6 +36,7 @@ int main(){
     // Allocate Unified Memory – accessible from CPU or GPU
     cudaMallocManaged(&a, size);
 
+    //get current memory usage in the host
     if (getrusage(RUSAGE_SELF, &usage) == 0) {
         long rss = usage.ru_maxrss;
 
@@ -61,6 +62,13 @@ int main(){
     // Execute the kernel
     printf("kernel is ready to start\n");
     addArrays<<<numBlocks, blockSize>>>(a, N);
+
+    //busywaiting
+    //GPU allocation？
+    //cudaMallocManaged()  - 合起来？ -- thread 0 size -- 1 size 
+    //cpu 找位置分配？内容  -  找？
+    //set flag
+    //
 
     // Wait for GPU to finish before accessing on host
     cudaDeviceSynchronize();

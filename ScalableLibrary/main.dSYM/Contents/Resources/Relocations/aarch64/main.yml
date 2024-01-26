@@ -1,0 +1,10 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     "/Users/zhangjiajian/Desktop/项目/西交利物/project/ScableDynamicAllocation-main/ScalableLibrary/main"
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z13setBitMapTruej, symObjAddr: 0x0, symBinAddr: 0x100003D24, symSize: 0x68 }
+  - { offsetInCU: 0x3F, offset: 0x3F, size: 0x8, addend: 0x0, symName: _bitmap, symObjAddr: 0xC9A, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x69, size: 0x8, addend: 0x0, symName: __Z13setBitMapTruej, symObjAddr: 0x0, symBinAddr: 0x100003D24, symSize: 0x68 }
+  - { offsetInCU: 0xBB, offset: 0xBB, size: 0x8, addend: 0x0, symName: __Z14setBitsMapTruemi, symObjAddr: 0x68, symBinAddr: 0x100003D8C, symSize: 0x13C }
+  - { offsetInCU: 0x18B, offset: 0x18B, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x1A4, symBinAddr: 0x100003EC8, symSize: 0xB4 }
+...
