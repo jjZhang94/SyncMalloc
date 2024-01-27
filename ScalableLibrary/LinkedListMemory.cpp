@@ -43,6 +43,15 @@ MemorySegmentNode* LinkedListManagement::findSuitableMem(unsigned int sizeAlloca
 {
     //return the last node when finding a suitable node
     MemorySegmentNode* returnNode = NULL;
+    MemorySegmentNode* lastNode = NULL;
+    MemorySegmentNode* currentNode = NULL;
+    while (currentNode != NULL) {
+        if((currentNode -> isHole == true) && (currentNode ->length < sizeAllocate))
+            return lastNode;
+        }
+        lastNode = currentNode;
+        currentNode = currentNode->next;
+
     return returnNode;
 }
 

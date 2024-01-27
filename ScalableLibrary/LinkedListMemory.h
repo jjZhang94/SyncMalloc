@@ -102,5 +102,10 @@ class BitmapManagement
 
 /* -- End -- Define data structure for memory management with bitmaps*/
 
+class MemoryManagement
+{
+    private:
+        BitmapManagement bitmapManagement();
+}
 #endif
 
