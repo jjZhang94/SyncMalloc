@@ -31,7 +31,8 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "${file}",
+                "${fileDirname}\/testC.cpp",
+                "${fileDirname}\/LinkedListMemory.cpp",  
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],

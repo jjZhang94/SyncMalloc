@@ -10,7 +10,7 @@
             "program": "${fileDirname}/${fileBasenameNoExtension}",
             "args": [],
             "stopAtEntry": false,
-            "cwd": "${fileDirname}",
+            "cwd": "${fileDirname}" ,
             "environment": [],
             "externalConsole": false,
             "MIMode": "lldb",
