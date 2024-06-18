@@ -3,6 +3,8 @@ SyncMalloc is the first repository to support GPU dynamic allocation across all 
 
 If this framework contributes to your research or projects, kindly acknowledge it by citing the relevant papers that align with the functionalities you utilize.
 
+DOI Link:  https://doi.org/10.1145/3673038.3673069
+
 # How to use?
 SyncMalloc is thoroughly evaluated through diverse performance tests detailed in the directory *./Experiments* or *.src/MMUOnCPUPingPongFinalVersion*. These evaluations include the **Singular Mixed-size Test**, **Scaling Test**, **Random Allocation Test**, and **detailed Breakdowns of the system**.
 
