@@ -3,6 +3,8 @@ SyncMalloc is the first repository to support GPU dynamic allocation across all 
 
 If this framework contributes to your research or projects, kindly acknowledge it by citing the relevant papers that align with the functionalities you utilize.
 
+Jiajian Zhang, Fangyu Wu, Hai Jiang, Guangliang Cheng, Genlang Chen, and Qiufeng Wang. 2024. SyncMalloc: A Synchronized Host-Device Co-Management System for GPU Dynamic Memory Allocation across All Scales. In The 53rd International Conference on Parallel Processing (ICPP ’24), August 12–15, 2024, Gotland, Sweden. ACM, New York, NY, USA, 10 pages.
+
 DOI Link:  https://doi.org/10.1145/3673038.3673069
 
 # How to use?
