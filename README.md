@@ -28,7 +28,7 @@ or
 
 Note: For tests involving small allocations, set *BLOCKSIZE* to 16, because the benchmark of the Random Allocation Test is designed to initialize a small array to store the unique scope. But, the *BLOCKNUMBER* can be adjusted as needed to accommodate the unique scope of the Random Allocation Test.
 
-## Eetailed Breakdowns of the system
+## Detailed Breakdowns of the system
 The detailed performance breakdowns are conducted using directories *./Experiments/selfEvalutation/MMUOnCPUPingPongV1.3.6BrekDownsGPU* and *./Experiments/selfEvalutation/MMUOnCPUPingPongV1.3.6BrekDownsHosts*. These tests analyze the overhead by inserting time measurement functions in the function, *blockAllocationThr*, where each thread deals with block allocations on the host. This setup provides insight into the efficiency and scalability of system operations across both GPU and Host environments.
 
 
